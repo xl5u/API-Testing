@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequestAndVerify(findTestObject('CalculatorSoapService/Addition'))
 
-WS.verifyElementPropertyValue(response, 'AddResponse.AddResult', '6')
+WS.verifyElementPropertyValue(response, 'AddResponse.AddResult',  '6')
 
